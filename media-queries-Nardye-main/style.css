@@ -1,0 +1,58 @@
+div.container {
+    display: grid;
+    place-items: center;
+}
+h1 {
+    color: #ccc;
+}
+div.container > img {
+    width: 250px;
+    border: 2px solid red;
+    transition: all 0.3s ease-in-out;
+}
+
+div.container > img:hover {
+    cursor: pointer;
+    border-radius: 5%;
+    opacity: 0.8;
+}
+
+    @media  (min-width: 375px) {
+        div.container > img {
+            border-color: red;
+        }
+
+    }
+    
+
+    @media  (min-width: 425px) {
+        div.container > img {
+            border-color: blue;
+
+        }
+    } 
+    @media  (min-width: 768px) {
+        div.container > img {
+            border-color: green;
+
+        }
+    } 
+    @media  (min-width: 1024px) {
+        div.container > img {
+            border-color: yellow;
+
+        }
+    } 
+    @media  (min-width: 1440px) {
+        div.container > img {
+            border-color: hotpink;
+
+        }
+    } 
+    @media  (min-width: 1441px) {
+        div.container > img {
+            border-color: azure;
+
+        }
+    } 
+    
